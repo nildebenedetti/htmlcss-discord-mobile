@@ -99,7 +99,6 @@ body {
     padding:20px 30px 30px 20px;
     background-color: #5865F2;
     border-radius:25px;
-    position:relative;
 }
 
 .card-1-title {
@@ -125,10 +124,15 @@ body {
 
 }
 
+.spec-card-1 {
+    position: relative;
+}
+
 .discord-cube {
     height:100px;
     aspect-ratio: 1;
     position: absolute;
-
+    top: -50px;
+    left: 60px;
 }
 
