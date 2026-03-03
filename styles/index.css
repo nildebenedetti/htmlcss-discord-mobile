@@ -1,0 +1,14 @@
+/* CSS Reset */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Mobile Layout Trail*/
+
+body {
+    width: 512px;
+    margin:0 auto;
+}
