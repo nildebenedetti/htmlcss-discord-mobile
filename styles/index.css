@@ -13,6 +13,24 @@ body {
     background-color:#191D7B;
 }
 
+/* Variables */
+
+
+/* Utilities */
+
+.main-font {
+
+  font-family: "Vend Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.txt-white {
+    color:white;
+}
+
+
 /* Header */
 
 .header {
