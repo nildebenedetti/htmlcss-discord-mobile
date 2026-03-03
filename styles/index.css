@@ -10,5 +10,18 @@
 
 body {
     width: 512px;
-    margin:0 auto;
+}
+
+/* Header */
+
+.header {
+    max-width: 512px;
+    width:100%;
+}
+
+.header-banner {
+    height: 200px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: bottom;
 }
