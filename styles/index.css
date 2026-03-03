@@ -9,7 +9,7 @@
 /* Mobile Layout Trail*/
 
 body {
-  width: 512px;
+  max-width: 512px;
   background-color: #191d7b;
 }
 
@@ -18,16 +18,16 @@ body {
 /* Utilities */
 
 .main-font {
-  font-family: "Vend Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: <weight>;
   font-style: normal;
 }
 
+
 .title-font {
-  font-family: "Vend Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
+  font-family: "Sigmar", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -47,4 +47,11 @@ body {
   background-image: url(../img/banner.png);
   background-size: cover;
   background-position: bottom;
+}
+
+/* Intro*/
+
+.intro-title {
+    text-transform: uppercase;
+    text-align:center;
 }
