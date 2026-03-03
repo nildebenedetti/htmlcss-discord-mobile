@@ -1,25 +1,30 @@
 /* CSS Reset */
 
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Mobile Layout Trail*/
 
 body {
-    width: 512px;
-    background-color:#191D7B;
+  width: 512px;
+  background-color: #191d7b;
 }
 
 /* Variables */
 
-
 /* Utilities */
 
 .main-font {
+  font-family: "Vend Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
+.title-font {
   font-family: "Vend Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -27,20 +32,19 @@ body {
 }
 
 .txt-white {
-    color:white;
+  color: white;
 }
-
 
 /* Header */
 
 .header {
-    max-width: 512px;
-    width:100%;
+  max-width: 512px;
+  width: 100%;
 }
 
 .header-banner {
-    height: 200px;
-    background-image: url(../img/banner.png);
-    background-size: cover;
-    background-position: bottom;
+  height: 200px;
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  background-position: bottom;
 }
