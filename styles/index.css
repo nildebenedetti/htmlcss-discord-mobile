@@ -54,4 +54,14 @@ body {
 .intro-title {
     text-transform: uppercase;
     text-align:center;
+    font-size: 28px;
+    line-height:1;
+    margin-top: 50px;
+    margin-bottom:15px;
+}
+
+.intro-paragraph {
+    font-size: 14px;
+    text-align:center;
+    margin: 0px 40px;
 }
