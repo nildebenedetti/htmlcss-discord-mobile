@@ -101,7 +101,7 @@ body {
     border-radius:25px;
 }
 
-.card-1-title {
+.card-title {
     text-transform: uppercase;
     font-size: 28px;
     line-height:1;
@@ -109,13 +109,36 @@ body {
     margin-bottom:15px;
 }
 
-.card-1-par {
+.card-par {
     font-size: 14px;
 }
 
-.image-container {
+.image-container0 {
     margin: 10px 10px;
     background-image: url(../img/discord_demo.png);
+    height: 200px;
+    aspect-ratio: 16:9;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+
+}
+
+.spec-card-0 {
+    position: relative;
+}
+
+.discord-cube {
+    height:100px;
+    aspect-ratio: 1;
+    position: absolute;
+    top: -50px;
+    left: 60px;
+}
+
+.image-container1 {
+    margin: 10px 10px;
+    background-image: url(../img/streamer_demo.png);
     height: 200px;
     aspect-ratio: 16:9;
     background-position: center;
@@ -128,7 +151,7 @@ body {
     position: relative;
 }
 
-.discord-cube {
+.googly-eyes {
     height:100px;
     aspect-ratio: 1;
     position: absolute;
